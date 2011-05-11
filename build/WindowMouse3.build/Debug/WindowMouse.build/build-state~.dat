@@ -1,0 +1,179 @@
+TWindowMouse
+v7
+r0
+t325415896.045676
+cCheck dependencies
+cProcessInfoPlistFile /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/Info.plist WindowMouse-Info.plist
+cProcessPCH /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004D5A278F00000000002527C8
+t1297753999
+s2435016
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004A67D2A800000000000017ED
+t1248318120
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004D5A27900000000000003430
+t1297754000
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D5A279000000000000367FC
+t1297754000
+s223228
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D5A279000000000000C7160
+t1297754000
+s815456
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.h
+c000000004DB53C2B000000000000014C
+t1303723051
+s332
+i<Cocoa/Cocoa.h>
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m
+c000000004DB53C500000000000000536
+t1303723088
+s1334
+i"FilterSetting.h"
+i"FilterView.h"
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.h
+c000000004DB53BD90000000000000148
+t1303722969
+s328
+i<Cocoa/Cocoa.h>
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m
+c000000004DB53C1500000000000002A6
+t1303723029
+s678
+i"FilterView.h"
+i"FilterSetting.h"
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app
+t2
+s0
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/Info.plist
+t1303723089
+s1241
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse
+t2
+s0
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/PkgInfo
+t1303723089
+s8
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o
+t2
+s0
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o
+t1303723095
+s14388
+
+N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/WindowMouse.LinkFileList
+c000000004DB53C510000000000000109
+t1303723089
+s265
+
+N/var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h.gch
+t1303723095
+s56095760
+
+NWindowMouse-Info.plist
+c000000004DB53B32000000000000037F
+t1303722802
+s895
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325415889#325415889#0(0"0(0#1#0"4261848#0"0#
+
+CCompileC build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325415895.200514
+e325415895.555744
+r0
+xCompileC
+xbuild/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o
+x/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m: In function '-[FilterSetting start]':
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:25: warning: no '-initWithContentRect:styleMask:bacikng:defer:screen:' method found
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:25: warning: (Messages without a matching method signature
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:25: warning: will be assumed to return 'id' and accept
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:25: warning: '...' as arguments.)
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:28: warning: class 'FilterSetting' does not implement the 'NSWindowDelegate' protocol
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:36: error: 'filterView' undeclared (first use in this function)
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:36: error: (Each undeclared identifier is reported only once
+o/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:36: error: for each function it appears in.)
+o{standard input}:57:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:57:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+lSLF07#2@72"Compile /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m325415895#325415895#0(1410"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m: In function '-[FilterSetting start]':/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:25: warning: no '-initWithContentRect:styleMask:bacikng:defer:screen:' method found/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:25: warning: (Messages without a matching method signature/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:25: warning: will be assumed to return 'id' and accept/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:25: warning: '...' as arguments.)/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:28: warning: class 'FilterSetting' does not implement the 'NSWindowDelegate' protocol/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:36: error: 'filterView' undeclared (first use in this function)/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:36: error: (Each undeclared identifier is reported only once/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m:36: error: for each function it appears in.){standard input}:57:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:57:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_04(22@70"No '-initWithContentRect:styleMask:bacikng:defer:screen:' method found325415895#104#149#0(6@64"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m325415888#25#0#25#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)325415895#253#124#0(6@64"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m325415888#25#0#25#0#0"0(22@72"Class 'FilterSetting' does not implement the 'NSWindowDelegate' protocol325415895#596#151#0(6@64"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m325415888#28#0#28#0#45"class '*' does not implement the '*' protocol0(4@52"'filterView' undeclared (first use in this function)325415895#747#129#0(6@64"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m325415888#36#0#36#0#43"'*' undeclared (first use in this function)0(0#0#64"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m2523280016#1590"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -include /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o1#
+
+CCompileC build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325415895.201587
+e325415896.045339
+r1
+xCompileC
+xbuild/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o
+x/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m325415895#325415896#0(0"0(0#0#61"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m2523280016#1584"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -include /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o0#
+
+CLd /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse normal i386
+r0
+
+CProcessInfoPlistFile /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/Info.plist WindowMouse-Info.plist
+s325415889.396214
+e325415889.449105
+r1
+xProcessInfoPlistFile
+x/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/Info.plist
+xWindowMouse-Info.plist
+lSLF07#2@30"Process WindowMouse-Info.plist325415889#325415889#0(0"0(0#0#71"/Users/kikugawamariko/XCodeProjects/WindowMouse3/WindowMouse-Info.plist4261848#352"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    builtin-infoPlistUtility WindowMouse-Info.plist -genpkginfo /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s325415889.449281
+e325415895.200264
+r1
+xProcessPCH
+x/var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h.gch
+x/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h325415889#325415895#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h4750400#1484"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h.gch0#
+
+CTouch /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app
+r0
+
