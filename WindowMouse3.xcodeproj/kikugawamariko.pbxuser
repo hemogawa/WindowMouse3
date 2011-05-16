@@ -75,6 +75,33 @@
 		vrLen = 454;
 		vrLoc = 2603;
 	};
+	3C4EA1F813810A5700BFA425 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CAE32141365732900997491 /* FilterSetting.m */;
+		name = "FilterSetting.m: 102";
+		rLen = 0;
+		rLoc = 2984;
+		rType = 0;
+		vrLen = 493;
+		vrLoc = 2564;
+	};
+	3C4EA1F913810A5700BFA425 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C5368D31365B707009752B8 /* MainMenu.xib */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	3C4EA1FA13810A5700BFA425 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C5368D31365B707009752B8 /* MainMenu.xib */;
+		name = "MainMenu.xib: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1183;
+		vrLoc = 189057;
+	};
 	3C53687613658FF4009752B8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3CAE321F1365740400997491 /* main.m */;
@@ -101,6 +128,13 @@
 		name = NSGeometry.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSGeometry.h;
 		sourceTree = "<absolute>";
+	};
+	3C5368D31365B707009752B8 /* MainMenu.xib */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 58162}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{189057, 1183}";
+		};
 	};
 	3C7F036213799C9B008AE695 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -204,22 +238,25 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 326869728;
-			PBXWorkspaceStateSaveDate = 326869728;
+			PBXPerProjectTemplateStateSaveDate = 327223869;
+			PBXWorkspaceStateSaveDate = 327223869;
 		};
 		perUserProjectItems = {
-			3C1B432C1377CAF6005FDAC9 /* PlistBookmark */ = 3C1B432C1377CAF6005FDAC9 /* PlistBookmark */;
-			3C46713E1365DE250024D956 /* PBXTextBookmark */ = 3C46713E1365DE250024D956 /* PBXTextBookmark */;
-			3C4671BA136610620024D956 /* PBXTextBookmark */ = 3C4671BA136610620024D956 /* PBXTextBookmark */;
-			3C4EA1E2137BA34800BFA425 /* PBXTextBookmark */ = 3C4EA1E2137BA34800BFA425 /* PBXTextBookmark */;
-			3C4EA1E3137BA34800BFA425 /* PBXTextBookmark */ = 3C4EA1E3137BA34800BFA425 /* PBXTextBookmark */;
-			3C4EA1E4137BA34800BFA425 /* PBXTextBookmark */ = 3C4EA1E4137BA34800BFA425 /* PBXTextBookmark */;
-			3C53687613658FF4009752B8 /* PBXTextBookmark */ = 3C53687613658FF4009752B8 /* PBXTextBookmark */;
-			3C53687813658FF4009752B8 /* PBXTextBookmark */ = 3C53687813658FF4009752B8 /* PBXTextBookmark */;
-			3C7F036213799C9B008AE695 /* PBXTextBookmark */ = 3C7F036213799C9B008AE695 /* PBXTextBookmark */;
-			3C7F038013799DE3008AE695 /* PBXTextBookmark */ = 3C7F038013799DE3008AE695 /* PBXTextBookmark */;
-			3C7F038113799DE3008AE695 /* PBXTextBookmark */ = 3C7F038113799DE3008AE695 /* PBXTextBookmark */;
-			3CFC7A14137A45F400462171 /* PBXTextBookmark */ = 3CFC7A14137A45F400462171 /* PBXTextBookmark */;
+			3C1B432C1377CAF6005FDAC9 = 3C1B432C1377CAF6005FDAC9 /* PlistBookmark */;
+			3C46713E1365DE250024D956 = 3C46713E1365DE250024D956 /* PBXTextBookmark */;
+			3C4671BA136610620024D956 = 3C4671BA136610620024D956 /* PBXTextBookmark */;
+			3C4EA1E2137BA34800BFA425 = 3C4EA1E2137BA34800BFA425 /* PBXTextBookmark */;
+			3C4EA1E3137BA34800BFA425 = 3C4EA1E3137BA34800BFA425 /* PBXTextBookmark */;
+			3C4EA1E4137BA34800BFA425 = 3C4EA1E4137BA34800BFA425 /* PBXTextBookmark */;
+			3C4EA1F813810A5700BFA425 /* PBXTextBookmark */ = 3C4EA1F813810A5700BFA425 /* PBXTextBookmark */;
+			3C4EA1F913810A5700BFA425 /* PBXTextBookmark */ = 3C4EA1F913810A5700BFA425 /* PBXTextBookmark */;
+			3C4EA1FA13810A5700BFA425 /* PBXTextBookmark */ = 3C4EA1FA13810A5700BFA425 /* PBXTextBookmark */;
+			3C53687613658FF4009752B8 = 3C53687613658FF4009752B8 /* PBXTextBookmark */;
+			3C53687813658FF4009752B8 = 3C53687813658FF4009752B8 /* PBXTextBookmark */;
+			3C7F036213799C9B008AE695 = 3C7F036213799C9B008AE695 /* PBXTextBookmark */;
+			3C7F038013799DE3008AE695 = 3C7F038013799DE3008AE695 /* PBXTextBookmark */;
+			3C7F038113799DE3008AE695 = 3C7F038113799DE3008AE695 /* PBXTextBookmark */;
+			3CFC7A14137A45F400462171 = 3CFC7A14137A45F400462171 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3CAE31F61365728F00997491 /* Source Control */;
 		userBuildSettings = {
@@ -291,9 +328,9 @@
 	};
 	3CAE32141365732900997491 /* FilterSetting.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {870, 1447}}";
+			sepNavIntBoundsRect = "{{0, 0}, {870, 1412}}";
 			sepNavSelRange = "{2984, 0}";
-			sepNavVisRange = "{2603, 454}";
+			sepNavVisRange = "{2564, 493}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
