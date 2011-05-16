@@ -50,7 +50,7 @@
 	NSPoint mousePoint;
 	mousePoint = [filterWindow mouseLocationOutsideOfEventStream];
 	[filterWindow setIgnoresMouseEvents:YES];	//マウスイベントをうけとらない
-	[filterWindow setAcceptsMouseMovedEvents:YES];	//マウスムーブイベントを受け取る
+	//[filterWindow setAcceptsMouseMovedEvents:YES];	//マウスムーブイベントを受け取る
 	_screen_view = [[[FilterView alloc] initWithFrame:screenRec] autorelease];	//ビューを初期化
 	[filterWindow setContentView:_screen_view];	//ビューの中身をウィンドウにセット
 	[filterWindow orderFront:self];	//キー・メインウィンドウはそのままでウィンドウを全面に出す
@@ -99,7 +99,7 @@
 
 -(void)checkAccept:(NSTimer*) timer{
 	NSLog(@"nya!");
-	[self windowEquipment];
+	[filterWindow setAcceptsMouseMovedEvents:YES];	//マウスムーブイベントを受け取る
 }
 
 @end
