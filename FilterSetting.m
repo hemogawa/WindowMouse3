@@ -14,17 +14,12 @@
 @implementation FilterSetting
 -(void)applicationDidFinishLaunching:(NSNotification *)aNotification{
 	//[self setting];
-	//NSLog(@"start");
+	NSLog(@"lanched");
 	mouseSwitch = YES;
 	[spotSlider setMinValue:0];
 	[spotSlider setMaxValue:600];
 	[spotSlider setNumberOfTickMarks:4];
 	[self windowEquipment];
-	NSTimer *tm = [NSTimer scheduledTimerWithTimeInterval:1.0f
-												   target:self
-												 selector:@selector(checkAccept:)
-												 userInfo:nil
-												  repeats:YES];
 }
 
 -(void)windowEquipment{
@@ -35,28 +30,31 @@
 	NSScreen *main_screen = [NSScreen mainScreen];
 	NSRect screenRec = [main_screen frame];
 	filterWindow = [[FilterWindow alloc] initWithContentRect:screenRec
-												 styleMask:NSBorderlessWindowMask
+												 styleMask:NSBorderlessWindowMask /*& NSNonactivatingPanelMask*/
 												   backing:NSBackingStoreBuffered
 													 defer:NO
 													/*screen:main_screen*/];
 	//[filterWindow release];
 	[filterWindow setReleasedWhenClosed:NO];	//ウィンドウを閉じた時にメモリを解放
 	//[filterWindow setDisplaysWhenScreenProfileChanges:YES];	//スクリーンプロファイルがアップデートされたときウィンドウの内容を更新する
-	//[filterWindow setDelegate:self];	//自分自身に処理を移譲
+	[filterWindow setDelegate:self];	//Filtersettingに処理を移譲
 	//[filterWindow setBackgroundColor:[NSColor clearColor]];
 	[filterWindow setOpaque:NO];	//タイトル部分透明
+	//NSLog(@"Opaque->"); ([filterWindow isOpaque])?NSLog(@"YES"):NSLog(@"NO");
 	[filterWindow setHasShadow:YES];	//影無し
 	
-	NSPoint mousePoint;
-	mousePoint = [filterWindow mouseLocationOutsideOfEventStream];
+	//NSPoint mousePoint;
+	//mousePoint = [filterWindow mouseLocationOutsideOfEventStream];
 	[filterWindow setIgnoresMouseEvents:YES];	//マウスイベントをうけとらない
-	//[filterWindow setAcceptsMouseMovedEvents:YES];	//マウスムーブイベントを受け取る
+	//NSLog(@"ignoresMouseEvents->"); ([filterWindow ignoresMouseEvents])?NSLog(@"YES"):NSLog(@"NO");
+	[filterWindow setAcceptsMouseMovedEvents:YES];	//マウスムーブイベントを受け取る
+	NSLog(@"acceptsMouseMovedEvents->"); ([filterWindow acceptsMouseMovedEvents])?NSLog(@"YES"):NSLog(@"NO");
 	_screen_view = [[[FilterView alloc] initWithFrame:screenRec] autorelease];	//ビューを初期化
 	[filterWindow setContentView:_screen_view];	//ビューの中身をウィンドウにセット
 	[filterWindow orderFront:self];	//キー・メインウィンドウはそのままでウィンドウを全面に出す
 	[filterWindow setLevel:NSScreenSaverWindowLevel - 1];	//ウィンドウをスクリーンセーバーより1つ後ろにする
 	//[_screen_view setNeedsDisplay:YES];	//再描画
-	//[_screen_view setSetting:self];	//viewクラスとsettingクラスを連結？
+	[_screen_view setSetting:self];	//viewクラスとsettingクラスを連結？
 	
 }
 
@@ -88,18 +86,8 @@
 	[self windowEquipment];
 }
 -(IBAction)pushButton:(id)sender{
-	[self setMouseSwitch:NO];
 	[self windowEquipment];
 	NSLog(@"pushed");
-}
-
--(void)setMouseSwitch:(BOOL)theSwitch{
-	mouseSwitch = theSwitch;
-}
-
--(void)checkAccept:(NSTimer*) timer{
-	NSLog(@"nya!");
-	[filterWindow setAcceptsMouseMovedEvents:YES];	//マウスムーブイベントを受け取る
 }
 
 @end

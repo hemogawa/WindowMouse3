@@ -44,6 +44,11 @@
 	_setting = setting;
 }
 
+-(void)mouseDown:(NSEvent *)theEvent{
+	NSLog(@"mouseDown");
+	[filterWindow setLevel:NSNormalWindowLevel - 1];
+[self setNeedsDisplay:YES];
+}
 -(void)mouseUp:(NSEvent *)theEvent{
 	//[_setting stop];
 	//_spot_size -=10;
@@ -54,6 +59,7 @@
 }
 
 -(void)mouseMoved:(NSEvent *)theEvent{
+	//NSLog(@"move");
 	NSPoint eventLocation = [theEvent locationInWindow];
 	_spot_loc = [self convertPoint:eventLocation fromView:nil];
 	[self makeSpot];

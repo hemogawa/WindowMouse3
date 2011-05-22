@@ -28,7 +28,5 @@
 +(NSInteger)size;
 -(void)setting;
 -(IBAction)pushButton:(id)sender;
--(void)setMouseSwitch:(BOOL)theSwitch;
--(void)checkAccept:(NSTimer*)timer;
 
 @end

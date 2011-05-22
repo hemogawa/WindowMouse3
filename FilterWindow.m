@@ -33,8 +33,8 @@
 }
 
 /* ウィンドウはマウスウィンドウを無視する */
--(BOOL)ignoresMouseEvents{
+/*-(BOOL)ignoresMouseEvents{
 	return YES;
-}
+}*/
 
 @end
