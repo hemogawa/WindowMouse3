@@ -45,17 +45,7 @@
 }
 
 -(void)mouseDown:(NSEvent *)theEvent{
-	NSLog(@"mouseDown");
-	[filterWindow setLevel:NSNormalWindowLevel - 1];
-[self setNeedsDisplay:YES];
-}
--(void)mouseUp:(NSEvent *)theEvent{
-	//[_setting stop];
-	//_spot_size -=10;
-	//[self makeSpot];
-	//[_setting setMouseSwitch:YES];
-	//[_setting windowEquipment];
-	NSLog(@"mouseup");
+	NSPoint eventLocation = [theEvent locationInWindow];
 }
 
 -(void)mouseMoved:(NSEvent *)theEvent{
@@ -98,6 +88,10 @@
 -(void)setSize:(NSInteger)newSize{
 	_spot_size = newSize;
 	[self makeSpot];
+}
+
+-(BOOL)acceptsFirstMouse:(NSEvent *)theEvent{
+	return YES;
 }
 
 @end

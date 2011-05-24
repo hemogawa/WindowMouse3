@@ -1,7 +1,7 @@
 TWindowMouse
 v7
 r0
-t327771850.351475
+t327929542.735429
 cCheck dependencies
 cProcessInfoPlistFile /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/Info.plist WindowMouse-Info.plist
 cCompileXIB /Users/kikugawamariko/XCodeProjects/WindowMouse3/MainMenu.xib
@@ -49,15 +49,15 @@ t1297754000
 s815456
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.h
-c000000004DD92EE400000000000002FC
-t1306078948
-s764
+c000000004DDB964F0000000000000312
+t1306236495
+s786
 i<Cocoa/Cocoa.h>
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m
-c000000004DD92F480000000000000D55
-t1306079048
-s3413
+c000000004DDB97440000000000000EA7
+t1306236740
+s3751
 i"FilterSetting.h"
 i"FilterView.h"
 i"FilterWindow.h"
@@ -69,22 +69,22 @@ s566
 i<Cocoa/Cocoa.h>
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m
-c000000004DD6FF310000000000000A36
-t1305935665
-s2614
+c000000004DDA4631000000000000098F
+t1306150449
+s2447
 i"FilterView.h"
 i"FilterSetting.h"
 i"FilterWindow.h"
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.h
-c000000004DD92A6F000000000000011C
-t1306077807
+c000000004DDA016A000000000000011C
+t1306132842
 s284
 i<Cocoa/Cocoa.h>
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.m
-c000000004DD92A5D0000000000000417
-t1306077789
+c000000004DDA1EA70000000000000417
+t1306140327
 s1047
 i"FilterWindow.h"
 i"FilterSetting.h"
@@ -101,7 +101,7 @@ t1305052613
 s194010
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app
-t1306079050
+t1306236742
 s102
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/Info.plist
@@ -109,8 +109,8 @@ t1303723089
 s1241
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse
-t1306079050
-s25688
+t1306236742
+s26016
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/PkgInfo
 t1303723089
@@ -125,15 +125,15 @@ t1305047549
 s1176
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o
-t1306079050
-s24472
+t1306236742
+s27944
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o
-t1306078964
-s23216
+t1306236682
+s23500
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterWindow.o
-t1306078964
+t1306236683
 s12776
 
 N/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/WindowMouse.LinkFileList
@@ -167,11 +167,11 @@ s895
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies327771849#327771849#0(0"0(0#1#0"2513076880#0"0#
+lSLF07#2@18"Check dependencies327929542#327929542#0(0"0(0#1#0"2513076880#0"0#
 
 CCompileC build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327771849.843794
-e327771850.303945
+s327929542.298857
+e327929542.695479
 r1
 xCompileC
 xbuild/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o
@@ -180,11 +180,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m327771849#327771850#0(0"0(0#0#64"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m2513076880#1590"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -include /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o0#
+lSLF07#2@72"Compile /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m327929542#327929542#0(0"0(0#0#64"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m2513076880#1590"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -include /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterSetting.m -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterSetting.o0#
 
 CCompileC build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327771764.010454
-e327771764.433976
+s327929482.735813
+e327929482.982620
 r1
 xCompileC
 xbuild/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o
@@ -193,11 +193,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m327771764#327771764#0(0"0(0#0#61"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m2513076880#1584"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -include /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o0#
+lSLF07#2@69"Compile /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m327929482#327929482#0(0"0(0#0#61"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m2513076880#1584"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -include /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterView.m -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterView.o0#
 
 CCompileC build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterWindow.o /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327771764.380479
-e327771764.609964
+s327929482.970185
+e327929483.200790
 r1
 xCompileC
 xbuild/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterWindow.o
@@ -206,7 +206,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.m327771764#327771764#0(0"0(0#0#63"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.m2513076880#1588"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -include /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.m -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterWindow.o0#
+lSLF07#2@71"Compile /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.m327929482#327929483#0(0"0(0#0#63"/Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.m2513076880#1588"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -include /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/FilterWindow.m -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/FilterWindow.o0#
 
 CCompileC build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/main.o /Users/kikugawamariko/XCodeProjects/WindowMouse3/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325930796.559160
@@ -239,14 +239,14 @@ xMainMenu.nib
 lSLF07#2@17"Copy MainMenu.nib325417079#325417079#0(0"0(0#0#61"/Users/kikugawamariko/XCodeProjects/WindowMouse3/MainMenu.nib2523280016#376"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/kikugawamariko/XCodeProjects/WindowMouse3/MainMenu.nib /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/Resources0#
 
 CLd /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse normal i386
-s327771850.304048
-e327771850.348061
+s327929542.695568
+e327929542.732762
 r1
 xLd
 x/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse
 xnormal
 xi386
-lSLF07#2@108"Link /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse327771850#327771850#0(0"0(0#0#0"2513076880#709"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -filelist /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/WindowMouse.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework Cocoa -framework AppKit -framework CoreData -framework Foundation -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse0#
+lSLF07#2@108"Link /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse327929542#327929542#0(0"0(0#0#0"2513076880#709"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -filelist /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/Objects-normal/i386/WindowMouse.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework Cocoa -framework AppKit -framework CoreData -framework Foundation -o /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app/Contents/MacOS/WindowMouse0#
 
 COSACompile callMethod.applescript
 s326740349.479955
@@ -279,10 +279,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h325930789#325930796#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h4261848#1484"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/WindowMouse-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/include -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/WindowMouse3.build/Debug/WindowMouse.build/DerivedSources -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/4P/4Plrz3LXHW032A33CCBvCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cyvaxmwuyqnjxqcjnfpymmvicdgy/AppKit.h.gch0#
 
 CTouch /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app
-s327771850.348153
-e327771850.351430
+s327929542.732860
+e327929542.735388
 r1
 xTouch
 x/Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app
-lSLF07#2@82"Touch /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app327771850#327771850#0(0"0(0#0#0"2513076880#155"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    /usr/bin/touch -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app0#
+lSLF07#2@82"Touch /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app327929542#327929542#0(0"0(0#0#0"2513076880#155"    cd /Users/kikugawamariko/XCodeProjects/WindowMouse3    /usr/bin/touch -c /Users/kikugawamariko/XCodeProjects/WindowMouse3/build/Debug/WindowMouse.app0#
 

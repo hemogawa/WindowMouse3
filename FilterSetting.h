@@ -13,6 +13,7 @@
 /* Delegateってプロトコル無いよって文句言われたから<NSWindowDelegate追加> */
 @interface FilterSetting : NSObject<NSWindowDelegate> {
 	NSWindow *_screen_window;
+	NSApplication *_app;
 	FilterView *_screen_view;
 	FilterWindow *filterWindow;
 	IBOutlet NSSlider *spotSlider;

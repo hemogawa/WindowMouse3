@@ -20,7 +20,11 @@
 	[spotSlider setMaxValue:600];
 	[spotSlider setNumberOfTickMarks:4];
 	[self windowEquipment];
-}
+	NSTimer *tm = [NSTimer scheduledTimerWithTimeInterval:1.0f
+												   target:self
+												 selector:@selector(checkAccept)
+												 userInfo:nil
+												  repeats:YES];}
 
 -(void)windowEquipment{
 	NSLog(@"window:%@",filterWindow);
@@ -48,7 +52,7 @@
 	[filterWindow setIgnoresMouseEvents:YES];	//マウスイベントをうけとらない
 	//NSLog(@"ignoresMouseEvents->"); ([filterWindow ignoresMouseEvents])?NSLog(@"YES"):NSLog(@"NO");
 	[filterWindow setAcceptsMouseMovedEvents:YES];	//マウスムーブイベントを受け取る
-	NSLog(@"acceptsMouseMovedEvents->"); ([filterWindow acceptsMouseMovedEvents])?NSLog(@"YES"):NSLog(@"NO");
+	//NSLog(@"acceptsMouseMovedEvents->"); ([filterWindow acceptsMouseMovedEvents])?NSLog(@"YES"):NSLog(@"NO");
 	_screen_view = [[[FilterView alloc] initWithFrame:screenRec] autorelease];	//ビューを初期化
 	[filterWindow setContentView:_screen_view];	//ビューの中身をウィンドウにセット
 	[filterWindow orderFront:self];	//キー・メインウィンドウはそのままでウィンドウを全面に出す
@@ -89,5 +93,11 @@
 	[self windowEquipment];
 	NSLog(@"pushed");
 }
+-(void)checkAccept:(NSTimer*) timer{	
+	NSLog(@"nya!");
+}
 
+-(void)applicationDidBecomeActive:(NSNotification *)aNotification{
+	[self windowEquipment];
+}
 @end
