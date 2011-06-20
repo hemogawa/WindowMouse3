@@ -15,8 +15,9 @@
 	FilterWindow *filterWindow;
 	NSTrackingArea *_tracking_area;
 	NSRect _spot_rect;
-	NSInteger _spot_size;
+	CGFloat _spot_size;
 	NSPoint _spot_loc;
+	BOOL _spot_mode;
 }
 
 -(void)setSetting:(FilterSetting*)setting;

@@ -24,7 +24,8 @@
 												   target:self
 												 selector:@selector(checkAccept)
 												 userInfo:nil
-												  repeats:YES];}
+												  repeats:YES];
+}
 
 -(void)windowEquipment{
 	NSLog(@"window:%@",filterWindow);
@@ -36,19 +37,14 @@
 	filterWindow = [[FilterWindow alloc] initWithContentRect:screenRec
 												 styleMask:NSBorderlessWindowMask /*& NSNonactivatingPanelMask*/
 												   backing:NSBackingStoreBuffered
-													 defer:NO
-													/*screen:main_screen*/];
+													 defer:NO];
 	//[filterWindow release];
 	[filterWindow setReleasedWhenClosed:NO];	//ウィンドウを閉じた時にメモリを解放
 	//[filterWindow setDisplaysWhenScreenProfileChanges:YES];	//スクリーンプロファイルがアップデートされたときウィンドウの内容を更新する
 	[filterWindow setDelegate:self];	//Filtersettingに処理を移譲
-	//[filterWindow setBackgroundColor:[NSColor clearColor]];
 	[filterWindow setOpaque:NO];	//タイトル部分透明
-	//NSLog(@"Opaque->"); ([filterWindow isOpaque])?NSLog(@"YES"):NSLog(@"NO");
 	[filterWindow setHasShadow:YES];	//影無し
 	
-	//NSPoint mousePoint;
-	//mousePoint = [filterWindow mouseLocationOutsideOfEventStream];
 	[filterWindow setIgnoresMouseEvents:YES];	//マウスイベントをうけとらない
 	//NSLog(@"ignoresMouseEvents->"); ([filterWindow ignoresMouseEvents])?NSLog(@"YES"):NSLog(@"NO");
 	[filterWindow setAcceptsMouseMovedEvents:YES];	//マウスムーブイベントを受け取る
@@ -89,15 +85,17 @@
 	NSLog(@"change");
 	[self windowEquipment];
 }
--(IBAction)pushButton:(id)sender{
-	[self windowEquipment];
-	NSLog(@"pushed");
-}
+
 -(void)checkAccept:(NSTimer*) timer{	
 	NSLog(@"nya!");
 }
 
 -(void)applicationDidBecomeActive:(NSNotification *)aNotification{
+	if(![filterWindow acceptsMouseMovedEvents])
+	   [status setStringValue:@"NO"];
+	else
+	   [status setStringValue:@"YES"];
 	[self windowEquipment];
+	//[_screen_view makeSpot];
 }
 @end

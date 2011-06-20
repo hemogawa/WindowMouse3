@@ -10,6 +10,8 @@
 #import "FilterSetting.h"
 #import "FilterWindow.h"
 
+#define MODE_SPOT 0
+#define MODE_LINE 1
 
 @implementation FilterView
 -(id)initWithFrame:(NSRect)frameRect{
@@ -25,6 +27,7 @@
 	_spot_size = 300;
 	_spot_loc.x=10; _spot_loc.y=10;
 	_setting = [[FilterSetting alloc]init];
+	_spot_mode = MODE_LINE;
 	return self;
 }
 /* NSViewにdeallocって関数があって、それを実行するための関数らしい... */
@@ -34,18 +37,33 @@
 
 /* drawRectって関数に書いてある描画処理が読み込まれる */
 -(void)drawRect: (NSRect)rect{
+	NSRect frame =[self frame];
+	//CGContextRef context = NSCurrentGraphicsPort();
 	[[NSColor colorWithDeviceRed:0.0 green:0.0 blue:0.0 alpha:0.5] set];
+	//CGRect frameCG = *(CGRect *)&frame;
+	//CGContextSetRGBFillColor(context, 0.0, 0.0, 0.0, 0.5);
+	/*
+	 void NSRectFill(NSRect rect) {
+		CGContextRef context=NSCurrentGraphicsPort(); //コンテキスト取得
+		CGContextSaveGState(context);	//直前のグラフィックの状態を保存
+		CGContextSetBlendMode(context,kCGBlendModeCopy);	//四角形が上書きされてる仕組みとみた
+		CGContextFillRect(NSCurrentGraphicsPort(),rect);
+		CGContextRestoreGState(context);
+	 }
+	 */
 	NSRectFill([self frame]);
+	//CGContextFillRect(context, frameCG);
 	[[NSColor colorWithDeviceRed:0.0 green:0.0 blue:0.0 alpha:0.0] set];
 	NSRectFill(_spot_rect);
+	//CGContextSetRGBFillColor(context, 1.0, 0.0, 0.0, 0.5);
+	//[[NSBezierPath bezierPathWithOvalInRect:_spot_rect] fill];
+	//CGRect spotCG = *(CGRect *)&_spot_rect;
+	//CGContextAddRect(context, spotCG);
+	//CGContextEOFillPath(context);
 }
 
 -(void)setSetting:(FilterSetting *)setting{
 	_setting = setting;
-}
-
--(void)mouseDown:(NSEvent *)theEvent{
-	NSPoint eventLocation = [theEvent locationInWindow];
 }
 
 -(void)mouseMoved:(NSEvent *)theEvent{
@@ -56,9 +74,21 @@
 }
 
 -(void)makeSpot{
-	_spot_size = [FilterSetting size];
-	//NSLog(@"make!%d!%f",_spot_size,(float)_spot_loc.x);
-	_spot_rect = NSMakeRect(_spot_loc.x-_spot_size/2, _spot_loc.y-_spot_size/2, _spot_size, _spot_size);
+	_spot_size = (CGFloat)[FilterSetting size];
+	//NSLog(@"make!%f!%f",_spot_size,(float)_spot_loc.x);
+	if(_spot_mode == MODE_SPOT){
+		_spot_rect.origin.x = _spot_loc.x - _spot_size;
+		_spot_rect.origin.y = _spot_loc.y - _spot_size;
+		_spot_rect.size.width = _spot_size * 2;
+		_spot_rect.size.height = _spot_size * 2;
+	}
+	if(_spot_mode == MODE_LINE){
+		_spot_rect.origin.x = 0;
+		_spot_rect.origin.y = _spot_loc.y - _spot_size;
+		_spot_rect.size.width = [self frame].size.width;
+		_spot_rect.size.height = _spot_size * 2;
+	}
+	//_spot_rect = NSMakeRect(_spot_loc.x-_spot_size/2, _spot_loc.y-_spot_size/2, _spot_size, _spot_size);
 	[self setNeedsDisplay:YES];	//再描画	
 }
 

@@ -17,7 +17,7 @@
 	FilterView *_screen_view;
 	FilterWindow *filterWindow;
 	IBOutlet NSSlider *spotSlider;
-	IBOutlet NSButton *testButton;
+	IBOutlet NSTextField *status;
 	BOOL mouseSwitch;
 }
 
@@ -28,6 +28,5 @@
 -(IBAction)changeSpotSize: (id)sender;
 +(NSInteger)size;
 -(void)setting;
--(IBAction)pushButton:(id)sender;
 
 @end
